@@ -249,7 +249,7 @@ padding-bottom: 94px;
   margin-right: 30px;
 }
 .features-item:last-child{
-  margin-right: 0;
+  margin-right: 0px;
 }
 
 .our-features-container{
@@ -378,13 +378,9 @@ margin-right: 0;
   justify-content: center;
   margin-bottom: 30px;
 }
-.team-member-social-links > li{
+.team-member-social-links > li:not(:last-child){
   margin-right: 10px;
 }
-.team-member-social-links:last-child{
-margin-right: 0;
-}
-
 
 .team-social-icons-link{
   width: 44px;
@@ -417,11 +413,8 @@ margin-right: 0;
 }
 .companies-icons-list{
   display: flex;}
-  .regular-customers-icons{
+  .regular-customers-icons:not(:last-child){
   margin-right: 30px;
-}
-.companies-icons-list:last-child{
-margin-right: 0px;
 }
 
 
@@ -463,6 +456,7 @@ padding-bottom: 60px;
 
 .foot-flex{
   display: flex;
+  align-items: baseline;
 }
 .address{
 text-decoration: none;
@@ -529,12 +523,10 @@ color: var(--webstudio-link-color);
   justify-content: center;
   }
 
-.company-social-link-icons>li {
+.company-social-link-icons>li:not(:last-child){
   margin-right: 10px;
 }
-.company-social-link-icons:not(last-child){
-  margin-right: 0px;
-}
+
 
 .social-icon-link-svg
 { width: 44px;
