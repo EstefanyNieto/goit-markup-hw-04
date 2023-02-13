@@ -350,7 +350,7 @@ line-height: 1.8;
 letter-spacing: 0.03em;
 color: var(--contact-detail-header);
 text-align: center;
-padding-bottom: 30px;
+margin-bottom: 16px;
 }
 
 .our-team-list > li{
